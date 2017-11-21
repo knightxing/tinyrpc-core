@@ -6,7 +6,7 @@ package com.demo.tinyrpc.Exception;
  * @author Sean.Chan
  *
  */
-public class RPCServiceIDIsIllegal extends java.lang.Exception {
+public class RPCServiceIDIsIllegal extends Exception {
 
 	/**
 	 * 
@@ -14,7 +14,7 @@ public class RPCServiceIDIsIllegal extends java.lang.Exception {
 	private static final long serialVersionUID = 1L;
 
 	public RPCServiceIDIsIllegal(){
-		super("RPC serviceId is illegal ...");
+		super();
 	}
 	
 	public RPCServiceIDIsIllegal(String msg) {

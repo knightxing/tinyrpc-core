@@ -1,23 +1,22 @@
 package com.demo.tinyrpc.Exception;
 
 /**
- * 远程调用服务异常
+ * 服务监听失败异常
  * @author Sean.Chan
  *
  */
-public class RPCRemoteCallException extends Exception {
-
+public class RPCServiceListenFailed extends Exception {
+	
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	
-	public RPCRemoteCallException(){
+
+	public RPCServiceListenFailed(){
 		super();
 	}
 
-	public RPCRemoteCallException(String msg) {
+	public RPCServiceListenFailed(String msg){
 		super(msg);
 	}
-
 }

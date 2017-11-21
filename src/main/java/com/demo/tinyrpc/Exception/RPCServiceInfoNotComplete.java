@@ -1,22 +1,22 @@
 package com.demo.tinyrpc.Exception;
 
 /**
- * 远程调用服务异常
+ * 发布服务信息不完整异常
  * @author Sean.Chan
  *
  */
-public class RPCRemoteCallException extends Exception {
+public class RPCServiceInfoNotComplete extends Exception{
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	public RPCRemoteCallException(){
+	public RPCServiceInfoNotComplete(){
 		super();
 	}
-
-	public RPCRemoteCallException(String msg) {
+	
+	public RPCServiceInfoNotComplete(String msg){
 		super(msg);
 	}
 
