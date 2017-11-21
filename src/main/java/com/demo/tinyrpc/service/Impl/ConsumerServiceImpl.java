@@ -62,7 +62,7 @@ public class ConsumerServiceImpl implements IConsumerService {
         Socket socket = null;
         ObjectInputStream objectInputStream = null;
         try {
-            socket = new Socket(Constant.IP, Constant.REMOTESERVICEPORT);//向远程服务端建立连接
+            socket = new Socket(Constant.IP, Constant.PORT);//向远程服务端建立连接
             objectOutputStream = new ObjectOutputStream(socket.getOutputStream());//获得输出流
             objectOutputStream.writeObject(requestDO);//发送序列化结果
             objectOutputStream.flush();

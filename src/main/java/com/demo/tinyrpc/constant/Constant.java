@@ -25,7 +25,7 @@ public class Constant {
 	/**
 	 * 远程服务端口
 	 */
-	public static final int REMOTESERVICEPORT = 8082;
+	public static final int PORT = 8082;
 
 
 	
