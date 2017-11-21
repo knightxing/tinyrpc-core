@@ -56,4 +56,22 @@ public class RPCConsumerImpl implements IRPCConsumer {
 		return result;
 	}
 
+	public String getInterfaceName() {
+		return interfaceName;
+	}
+
+	public void setInterfaceName(String interfaceName) {
+		this.interfaceName = interfaceName;
+	}
+
+	public String getVersion() {
+		return version;
+	}
+
+	public void setVersion(String version) {
+		this.version = version;
+	}
+	
+	
+
 }
